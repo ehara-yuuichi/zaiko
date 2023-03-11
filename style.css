@@ -1,1 +1,22 @@
-
+h1{
+    color: red; 
+}
+th,td {
+    border: solid 1px;              /* 枠線指定 */
+}
+ 
+table {
+    border-collapse:  collapse;     /* セルの線を重ねる */
+}
+th{
+    background-color:blanchedalmond
+}
+th,td {
+    border: solid 1px;  /* 枠線指定 */
+    padding: 5px;      /* 余白指定 */
+    height: 24px; 
+}
+ 
+td {
+    text-align:  center;        /* 文字の揃え位置指定 */
+}
